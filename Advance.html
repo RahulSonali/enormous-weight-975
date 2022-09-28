@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jobs</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&family=Poppins&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/de33c97a7f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Advance.css">
+    
+</head>
+<body>
+
+<div class="main-cont ">
+    <h1>Advance Job Search</h1>
+    <div class="outer-cont">
+        <div class="ip-cont">
+            <form id="form" action="">
+                <div class="flx border">
+                    <div><i class="fa-solid fa-magnifying-glass"></i></div>
+                    <div class="m-left"><input id="keyword" type="text" placeholder="Keyword" size="90"></div>
+                </div><br>
+                <div>
+                        <div id="exp-box">
+                            <div class="flx border">
+                                <div><i class="fa-solid fa-briefcase"></i></div>
+                                <div  class="m-left">
+                                    <!-- <label id="exp1" for="">Experience</label> -->
+                                    <select name="" id="exp">
+                                    <option value="" disabled selected>Experience</option>                                        <option value="1 Year">1 Year</option>
+                                    <option value="0 Year">0 Year</option>
+                                    <option value="2 Years">2 Years</option>
+                                    <option value="3 Years">3 Years</option>
+                                    </select>
+                                </div>                            
+                               
+                            </div> 
+                            <div class="flx border gap">
+                                <div><i class="fa-solid fa-location-dot"></i></div>
+                                <div  class="m-left ">
+                                    <!-- <label for="">Location</label>   -->
+                                    <input id="location" type="text" placeholder="Location" >                                  
+                                </div>                            
+                            </div>
+                        </div>
+                    </div><br>
+                    
+                    <div class = "border">
+                        <!-- <label for="">Industry</label> -->
+                        <select name="" id="industry">
+                        <option value="" disabled selected>Industry</option>
+                        <option value="Advertising/PR/Events">Advertising/PR/Events</option>
+                        <option value="Bio - Technology & Science">Bio - Technology & Science</option>
+                        <option value="Customer Service">Customer Service</option>
+                        <option value="Internet / E - Commerce">Internet / E - Commerce</option>
+                        <option value="Electronice & Manufacturing">Electronice & Manufacturing</option>
+                        <option value="Faculty Managenent">Faculty Managenent</option>
+                        <option value="Electrical Engineering">Electrical Engineering</option>
+                        <option value="Web Development">Web Development</option>
+                        <option value="Software Testing">Software Testing</option>
+                        <option value="Marketing">Marketing</option>
+                      </select>
+                    </div>
+                   
+                <br>
+                <div class = "border">
+                    <select name="" id="function">
+                        <option value="" disabled selected>Function</option>
+                        <option value="Admin / Front office">Admin / Front office</option>
+                        <option value="Advertising/Entertainment/Media">Advertising/Entertainment/Media</option>
+                        <option value="Banking/Finencial Services">Banking/Finencial Services</option>
+                        <option value="Construction">Construction</option>
+                        <option value="Customer care/BPO/KPO">Customer care/BPO/KPO</option>
+                        <option value="Education/Teaching">Education/Teaching</option>
+                        <option value="Health Care">Health Care</option>
+                        <option value="Hotel/Restaurent">Hotel/Restaurent</option>
+                        <option value="Human Resource">Human Resource</option>
+                        <option value="IT">IT</option>
+                    </select>
+                </div><br>
+                <div class = "border">
+                    <!-- <label for="">Role</label> -->
+                    <select name="" id="role">
+                        <option value="" disabled selected>Role</option>
+                    <option value="AC Technician">AC Technician</option>
+                    <option value="Accessory Designer">Accessory Designer</option>
+                    <option value="Account Manager/Direct Manager">Account Manager/Direct Manager</option>
+                    <option value="Account Planning">Account Planning</option>
+                    <option value="Biologist">Biologist</option>
+                    <option value="Branch Manager">Branch Manager</option>
+                    <option value="Electrical Engineering">Electrical Engineering</option>
+                    <option value="Chef">Chef</option>
+                    <option value="Commercial Manager">Commercial Manager</option>
+                    <option value="Data Analyst">Data Analyst</option>
+                  </select>
+                </div><br>
+                <div></div>
+                <div class="flx">
+                    <div class="flx">
+                        <div class = "border">
+                            <!-- <label for="">Minimum Salary</label> -->
+                            <select name="" id="min-salary">
+                            <option value="" disabled selected>Minimum Salary</option>
+                            <option value="100000">100000</option>
+                            <option value="200000">200000</option>
+                            <option value="300000">300000</option>
+                            <option value="400000">400000</option>
+                            <option value="500000">500000</option>
+                            <option value="600000">600000</option>
+                            <option value="700000">700000</option>
+                            <option value="800000">800000</option>
+                            <option value="900000">900000</option>
+                            <option value="1000000">1000000</option>
+                          </select>
+                        </div>
+                        <div  class = "border gap">
+                            <!-- <label for="">Maximum Salary</label> -->
+                            <select name="" id="max-salary">
+                            <option value="" disabled selected>Maximum Salary </option>
+                            <!-- <option value=""></option> -->
+                            <option value="100000">100000</option>
+                            <option value="200000">200000</option>
+                            <option value="300000">300000</option>
+                            <option value="400000">400000</option>
+                            <option value="500000">500000</option>
+                            <option value="600000">600000</option>
+                            <option value="700000">700000</option>
+                            <option value="800000">800000</option>
+                            <option value="900000">900000</option>
+                            <option value="1000000">1000000</option>
+                          </select>
+                        </div>
+                    </div>
+                    <div class="checkbox">
+                        <input id="checkbox" type="checkbox">
+                        <label class="checkbox" for="">Jobs that don't include salary</label>
+                    </div>
+                </div><br>
+                <div><input id="sub" type="submit" value="Search"></div>
+            </form>
+        </div>
+        <div class="img-cont">
+            <div><img id="img1" src="https://tpc.googlesyndication.com/simgad/14167931370119027316" alt=""></div>
+            <div id="search-tips">
+                <h3>Search Tips</h3>
+                <div class="flx searchg">
+                    <div><img id="img" src="https://cdn-icons-png.flaticon.com/512/3135/3135680.png" alt=""></div>
+                    <div>
+                        <h5>Exact Job Search</h5>
+                        <p>
+                            Looking for an keyword search?
+                            <br>
+                            Put double quotes around the "keyword" to search for exact word/phrases.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div id="bottom"> 
+
+            <div id="btm1">
+              <div>Jobs by Locations</div>
+              <div><p>: Jobs in Bangalore |   Jobs in Delhi  |   Jobs in Mumbai |   Jobs in Chennai |   Jobs in Hyderabad |     Jobs in Kolkata |     Jobs in Pune |    Jobs in Chandigar |   Jobs in Lucknow |   Jobs in Coimbatore |    Jobs in Odisha |    Jobs in Jaipur |    Jobs in Ahmedabad |     Jobs in Indore |    Jobs in Nagpur |    Jobs in Goa |   Jobs in Noida    |    Jobs in Bhubaneswar   |   Jobs in Gurgaon    |    Jobs in Guwahati    |  Jobs in Dehradun   |   Jobs in Mysore  |   Jobs in Bhopal     |   Jobs in Vijayawada</p></div>
+    
+            </div>
+            <div id="btm2">
+              <div>Jobs by Skill -IT</div>
+              <div><P> :         Biotechnology Jobs    |    Digital Marketing Jobs   |  Graphic Design Jobs    |    Networking Jobs    |     Oracle Jobs     |    SEO Jobs     |    Software Testing Jobs    |    Sql Jobs   |    Web Design Jobs</P></div>
+            </div>
+            <div id="btm3"> 
+              <div>Jobs by Skill -NON IT</div>
+              <div><p>    :ACCOunting Jobs     |       BPO Jobs    |   Call Center Jobs    |    CIVil Engineering Jobs   |    Content Witing Job   |   Ds   Electrical tngineering Jobs    |     Event Management Jobs     |         Hotel Management Jobs       |     HR Job  |   
+              |  Sales Jobs</p></div>
+            </div>
+            <div id="btm4">
+              <div>Jobs by Role</div>
+              <div><p>:Air Hostess Jobs      |     Accountaint Jobs    |    Assistant Professor Jobs      |              Business Analyst Jobs     |         Computer Operator jobs      |          Data Analyst Jobs          |                Data Entry Operator Jobs     |              Fashion Designer Jobs      |
+                Graphics Designer jobs    |       Software Engineer Job</p></div>
+            </div>
+            <div id="btm5">
+              <div> International  Jobs</div>
+           <div><p>Jobs in Gulf Jobs     |     job in Singapore      |    Jobs in Malaysia       |     Jobs in Philippines     |                Jobs in Hong Kong      |      Jobs in Vietnam    |      Jobs in indionesia     |      Jobs in Thailand     |              Jobs in Dubai    |       Jobs in UAE</p></div>
+            </div>
+            <div id="btm6">
+              <div> Other  Jobs</div>
+              <div><p>Walk-in Jobs      |      Part lime Jobs     |      Contract Jobs    |      Jobs for Women       |        Fresher Jobs       |    reelancer Jobs       |        Work from Home Jobs      |      12th PasS JObs       |                 10th Pass Jobs                 Diploma Jobs</p></div>
+            </div>
+        </div>
+    </div>
+   
+    
+</div>
+</body>
+</html>
+<script src="Advance.js"></script>
+<script>
+document.querySelector("#exp").addEventListener("change", SortByPriceFun);
+function SortByPriceFun(){
+ console.log("hiiiii Price")
+ var sel=document.querySelector("#exp").value;
+  console.log(sel)
+  if(sel=="job"){
+      window.location.href="Advance.html"
+  }
+  else if(sel == "bag"){
+    //  window.location.href=" "
+  }
+
+}
+</script>
