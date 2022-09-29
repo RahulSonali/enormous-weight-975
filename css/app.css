@@ -1,0 +1,149 @@
+*{
+  padding: 0;
+  margin: 0;
+
+}
+body{
+  background: #f5f5f5;
+}
+
+
+@media(max-width:767px) {
+  html {
+    font-size: 14px;
+  }
+}
+.mini{
+  display:grid;
+  grid-template-columns: repeat(2,1fr);
+  gap:10px;
+  grid-template-areas:
+  "a a"
+  "b c"
+  "d d"
+  "e e"
+  "f f";
+  border: 1px solid whitesmoke;
+  margin: 30px 0px;
+  background-color: white;
+  padding-top: 8px;
+}
+.mini:hover{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.mini div{
+
+  margin-bottom: 2px;
+}
+.mini>div:nth-child(1){
+  grid-area: a;
+}
+.mini>div:nth-child(2){
+  grid-area: b;
+}
+.mini>div:nth-child(3){
+  grid-area: c;
+}
+.mini>div:nth-child(4){
+  grid-area: d;
+}
+.mini>div:nth-child(5){
+  grid-area: e;
+}
+.mini>div:nth-child(6){
+  grid-area: f;
+}
+
+.c_loc{
+  font-family: Arial,
+  /* Font Awesome 5 Free; */
+}
+.c_name{
+  color: #6c54da;
+  cursor: pointer;
+}
+.apply{
+  padding: 8px 17px 6px;
+  font-size: 15px;
+  font-family: sans-serif;
+  border-width: 1px;
+  color:#6c54da;
+  border: 2px solid #6c54da;
+  font-weight: 500;
+  border-radius: 2px;
+}
+.apply:hover{
+  background: #6c54da;
+  opacity: 1;
+  border: 2px solid #6c54da;
+  color: #fff;
+}
+.item3{
+  background: #ebebeb;
+  padding: 10px 15px;
+  zoom: 1;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.item{
+  padding-left: 15px;
+}
+.item1{
+  padding-left: 15px; 
+}
+.item2{
+  padding-left: 15px;
+}
+
+#ap-box{
+  width:65%;
+  margin: auto;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+};
+#ap-box h2{
+  color: #505050;
+  font-size: 1.714em;
+  font-weight: 400;
+}
+#ap-head{
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 10px;
+  margin-bottom: 50px;
+}
+
+.newapply{
+  padding: 8px 17px 6px;
+  font-size: 15px;
+  font-family: sans-serif;
+  border-width: 1px;
+  color:#6c54da;
+  border: 2px solid #6c54da;
+  font-weight: 500;
+  border-radius: 2px;
+  margin-left: 15px;
+}
+i{
+  margin-left: 10px;
+  color:#aeaeae;
+  opacity: 1;
+  font-weight: 300;
+  font-size: 20px;
+}
+.newapply:hover{
+  background: #6c54da;
+  opacity: 1;
+  border: 2px solid #6c54da;
+  color: #fff;
+}
+#job-des{
+  padding-left: 30px;
+  padding-bottom: 40px;
+}
+.item3{
+  display: flex;
+  justify-content: space-evenly;
+}
+.item4{
+  padding: 10px;
+}
