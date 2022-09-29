@@ -11,7 +11,7 @@ accordionItemHeaders.forEach(accordionItemHeader => {
   });
 });
 
-let url = "http://localhost:3000/api/data";
+let url = "https://boiling-island-89524.herokuapp.com/api/data";
 let getData = async () => {
   let res = await fetch(url);
   res = await res.json();
@@ -24,7 +24,7 @@ getData();
 let renderDom = (data) => {
   let cont = document.getElementById("h-cont");
   cont.innerHTML = null;
-  data.forEach(({profile_name ,company_name, location, experience, salary, job_type, skills }) => {
+  data.forEach(({profile_name ,company_name, location, experience, salary, job_type, skills,id}) => {
     let div0 = document.createElement('div');
     div0.setAttribute("class", "mini");
     let div = document.createElement('div');
@@ -65,17 +65,16 @@ let renderDom = (data) => {
     cont.append(div0);
   });
 };
+let job=[];
+let applyjob = async (id) =>{
 
-// let updateDet = async (id) =>{
-// const value = window.prompt("Enter new price");
-// let new_price ={price:+value};
-// let res = await fetch(`${url}/${id}`, {
-//   method: "PATCH",
-//   body: JSON.stringify(new_price),
-//   headers: {'Content-Type': 'application/json',},
-// });
-// getData();
-// };
+let res = await fetch(`${url}/${id}`)
+res = await res.json();
+console.log(res);
+job.push(res);
+localStorage.setItem("job_Details", JSON.stringify(job));
+window.location.href ="appliedjob.html";
+};
 
 // let sorthtl =async()=>{
 //   let res = await fetch(`${url}/?_sort=price&_order=desc`);

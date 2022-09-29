@@ -27,6 +27,7 @@ body{
   height: 50px;
   line-height: 1.4333;
   border: none;
+
 }
 #loc{
   width: 23%;
@@ -37,6 +38,7 @@ body{
   height: 23px;
   color: #bdbdbd;
   font-weight: 600;
+
 }
 #h-search{
   width:43%;
@@ -221,4 +223,46 @@ cursor: pointer;;
 }
 .item2{
   padding-left: 15px;
+}
+
+#ap-box{
+  width:65%;
+  margin: auto;
+  border: 2px solid black;
+};
+#ap-box h2{
+  color: #505050;
+  font-size: 1.714em;
+  font-weight: 400;
+}
+#ap-head{
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0px;
+  margin-bottom: 50px;
+}
+
+.newapply{
+  padding: 8px 17px 6px;
+  font-size: 15px;
+  font-family: sans-serif;
+  border-width: 1px;
+  color:#6c54da;
+  border: 2px solid #6c54da;
+  font-weight: 500;
+  border-radius: 2px;
+  margin-left: 15px;
+}
+i{
+  margin-left: 10px;
+  color:#aeaeae;
+  opacity: 1;
+  font-weight: 300;
+  font-size: 20px;
+}
+.newapply:hover{
+  background: #6c54da;
+  opacity: 1;
+  border: 2px solid #6c54da;
+  color: #fff;
 }
