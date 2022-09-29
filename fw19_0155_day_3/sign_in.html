@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register-Monster India-Jobs-Recuritment-Job Search-Job Vacancies-September</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="./sign_in.css">
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+
+    <div id="nav"></div>
+
+
+
+
+    <div id="main">
+        <div id="login">
+            <p>welcome</p>
+            <p>Log in using your Monster credentials</p>
+        </div>
+
+        <div id="errorMsg"></div>
+
+        <div id="formDiv">
+            <!-- <div id="loginForm"> -->
+            <form id="loginForm">
+                <label>Email<sup>*</sup></label>
+                <div class="required"><sup>*</sup>Required Details</div>
+                <input type="email" id="userEmail" placeholder="Enter E-mail" required>
+
+                <label>Password<sup>*</sup></label>
+                <input type="password" id="userPassword" placeholder="Enter Password" required>
+
+                <button id="button">Login</button>
+            </form>
+            <!-- </div> -->
+        </div>
+
+        <a href="">
+            <p id="lostPassword">Lost Your Password?</p>
+        </a>
+        <div id="underLine"></div>
+
+        <div id="register">
+            <button id="newCust">Register with us</button>
+            <p id="description">Create your profile now and be visible to the top recruiters in the world
+            </p>
+            <a href="./register.html"><button>CREATE AN ACCOUNT</button></a>
+        </div>
+    </div>
+    <div id="jobs"></div>
+    <div id="foot"></div>
+
+</body>
+
+</html>
+<script type="module">
+     import {navbar,footer,jobs} from "./comp.js"
+    document.getElementById("nav").innerHTML=navbar()
+    document.getElementById("foot").innerHTML=footer()
+    document.getElementById("jobs").innerHTML=jobs()
+
+    
+let SignUpData = JSON.parse(localStorage.getItem("user"));
+console.log(SignUpData);
+document.querySelector("#button").addEventListener("click", MyData);
+function MyData(event) {
+    event.preventDefault()
+    let e = document.querySelector("#userEmail").value;
+    let p = document.querySelector("#userPassword").value;
+    document.querySelector("#errorMsg").innerHTML=null;
+    SignUpData.forEach(function (el) {
+        
+        if (el.email == e && el.password == p) {
+           
+            localStorage.setItem("LoginData",JSON.stringify(el));
+            window.location.href="./index.html"
+        } else if(e=="" && p==""){
+            document.querySelector("#errorMsg").innerHTML=null;
+            let Err = document.createElement("p");
+            Err.innerText = `• Please Enter Your Email and Password`
+          return  document.querySelector("#errorMsg").append(Err);
+        }else{
+            document.querySelector("#errorMsg").innerHTML=null;
+          
+            let arr = document.createElement("p");
+            arr.innerText = `• Incorrect email or password.`
+           return  document.querySelector("#errorMsg").append(arr);
+        }
+    })
+}
+</script>
+
+

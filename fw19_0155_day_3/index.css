@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+body{
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+}
+
+*{
+  margin: 0; 
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+header{
+  position: relative;
+  top: 0;left: 0;right: 0;
+  background: #ffffff;
+  box-shadow: 0 5px 10px rgba(0,0,0,.1);
+  padding: 0px 7%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+}
+header .logo{
+ width: 50px; 
+ height: 40px;
+}
+header .navbar ul li{
+  list-style: none;
+  float: left;
+}
+header .navbar ul li a{
+  font-size: 16px;   
+  padding: 10px;
+  color: black;
+  display: block;
+}
+header .navbar ul li a:hover{ 
+  color: blue;  
+}
+header .navbar ul li ul{
+  position: absolute;   
+  width: 400px;
+  background-color: #fff;
+  display: none;     
+ 
+}
+header .navbar ul li ul li{
+  width: 100%; 
+  border-top: 1px solid rgba(0,0,0,.1);  
+  
+}
+header .navbar ul li ul li ul{
+  left:400px;
+  top: 0px; 
+  
+}
+header .navbar ul li:focus-within>ul,
+header .navbar ul li:hover >ul{
+ display: initial; 
+}
+#menu-bar{
+  display: none;
+}
+header label{
+  font-size: 20px;
+  color:#333 ;
+  cursor: pointer;
+  display: none;
+}
+/* footercss */
+.container{
+  max-width: 1170px;   
+  margin: auto;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+ul{
+  list-style: none;
+}
+.footer{ 
+  background-color:#6c54da ;
+  padding: 70px 0;
+}
+.footer-col{
+  width:20%;
+  padding: 0 15px;
+}
+.footer-col h3{
+  font-size: 20px;
+  color: #ffffff;
+  text-transform:capitalize ;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+}
+.footer-col h3::before{
+  content: '';
+  position: absolute;
+  left: 0;bottom: -10px;
+  background-color: #e91e63;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+.footer-col ul li:not(:last-child){
+  margin-bottom: 10px;
+
+}
+.footer-col ul li a{
+font-size: 16px;
+text-transform: capitalize;
+color: #ffffff;
+text-decoration: none;
+font-weight:300 ;
+color: #bbbbbb;
+display: block;
+transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+  text-decoration: underline;
+  color: #ffffff;
+  padding-left: 8px;
+}
+.footer-col .social-links a{
+  display: inline-block;
+  height: 40px;width: 40px;
+  background-color: rgba(255,255,255,0);
+  margin-right: 0 10px 10px 0;
+  line-height: 40px;
+  border-radius: 5%;
+  color: #ffffff;
+  transition: all 0.3s ease;
+}
+.footer-col .social-links a:hover{
+  color: #24262b;
+  background-color: #ffffff;
+  
+}
+/* beforefooter */
+#main1{
+  margin-top: 100px;
+  font-size: 14px;
+  width: 70%;
+  margin: auto; 
+}
+#btm1,#btm2,#btm3,#btm4,#btm5,#btm6{
+  display: flex;
+  margin-top: 15px;
+}
+.desc{
+  width:80%
+}
+.loc{
+  width:20%
+}
+.main1-col{
+  border-top: 1px black solid;
+   display: flex; 
+  justify-content: space-around;
+}
+#input{
+  width:18%;
+}
+#tel{
+display: flex;
+  width:30%;
+}
+#tel a{
+  color: #6c54da;  
+}
+#mail{
+  width:18%;
+}
+#mail a{    
+  color: #6c54da;  
+}
+.social-link{
+  width:20%;
+  display: flex;
+  justify-content: space-between;
+}
+.social-link a{    
+  display: inline-block;
+  height: 80px;width: 80px;   
+  line-height: 20px;
+  /* border:1px #6c54da solid;
+  border-radius: 50%;  */
+  color: #6c54da;
+  padding: 5px 5px 5px 5px;   
+  
+}
+
+
+
+
+
+@media(max-width:991px){
+  header{
+padding: 20px;    
+  } 
+  header label{
+    display: initial;
+  } 
+  header .navbar{
+    position: absolute;
+    top:100%;left: 0;right: 0;
+    background-color: #5D4DA8;
+    border-top: 1px solid rgba(0,0,0,.1) ;
+    display: none;
+  }
+  header .navbar ul li{   
+    width: 100%;
+  }
+  header .navbar ul li ul{   
+   position: relative;
+   width: 100%;
+  }
+  header .navbar ul li ul li{   
+    background-color:#eee ;
+  }
+  header .navbar ul li ul li ul{   
+   width: 100%;
+   left: 0;
+  }
+  #menu-bar:checked ~.navbar{
+    display: initial;
+  }
+  /* footer css */
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+#main{
+  display: none;
+}
+
+
+
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register-Monster India-Jobs-Recuritment-Job Search-Job Vacancies-September</title> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">  
+    <link rel="stylesheet" href="./register.css">
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+<div id="nav"></div>
+
+<!-- header end -->
+    <!-- register -->
+
+    <div id="main">
+        <div id="register">
+            <p id="create_account">CREATE AN ACCOUNT</p>
+            <p>Personal Information</p>
+        </div>
+        
+        <div id="errMsg"></div>
+
+        <div id="formDiv">
+            <form id="registerForm">
+                <label>First Name<sup>*</sup></label>
+                <div class="required"><sup>*</sup>Required Details</div>
+                <input type="text"  id="userFirstName" placeholder="Enter First Name" required>
+
+                <label>Last Name<sup>*</sup></label>
+                <input type="text" id="userLastName" placeholder="Enter Last Name" required>
+
+                <label>Email<sup>*</sup></label>
+                <input type="email"  id="userEmail" placeholder="Enter E-mail" required>
+        
+                <label>Password<sup>*</sup></label>
+                <input type="password"  id="userPassword" placeholder="Enter Password" required>
+        
+                <button id="button">CREATE</button>
+            </form>
+        </div>
+    
+        <a href="./sign_in.html">
+            <span>or</span>
+            <span id="returnUnderLine">Reutrn to Log in </span>
+        </a>
+        
+    </div>
+
+   <div id="jobs"></div>
+    <div id="foot"></div>
+   
+
+</body>
+
+</html>
+
+<script type="module">
+ import {navbar,footer,jobs} from "./comp.js"
+    document.getElementById("nav").innerHTML=navbar()
+    document.getElementById("foot").innerHTML=footer()
+    document.getElementById("jobs").innerHTML=jobs()   
+
+let SignUpData = JSON.parse(localStorage.getItem("user")) || [];
+document.querySelector("#button").addEventListener("click", RegisterFun);
+function RegisterConstructorFun(name, last_name, email, password) {
+    this.name = name;
+    this.last_name = last_name;
+    this.email = email;
+    this.password = password;
+}
+function RegisterFun(event) {
+    event.preventDefault()
+    console.log("Hello");
+    document.querySelector("#errMsg").innerHTML=null
+    let name = document.querySelector("#userFirstName").value;
+    let last_name = document.querySelector("#userLastName").value;
+    let email = document.querySelector("#userEmail").value;
+    let password = document.querySelector("#userPassword").value;
+    if (email == "" && password == "" && last_name == "" && name == "") {
+        let Email = document.createElement("p");
+        Email.innerText = `• Email can't be blank.`
+
+        let Password = document.createElement("p");
+        Password.innerText = `• Password can't be blank.`
+
+        return document.querySelector("#errMsg").append(Password, Email)
+    }
+
+    let userConstructor = new RegisterConstructorFun(name, last_name, email, password)
+    console.log(userConstructor)
+    SignUpData.push(userConstructor);    
+    localStorage.setItem("user", JSON.stringify(SignUpData));
+
+    window.location.href="./sign_in.html"
+
+}
+</script>
+
