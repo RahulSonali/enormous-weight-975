@@ -6,9 +6,125 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Monster India-Jobs-Recuritment-Job Search-Job Vacancies-September</title>
     <link rel="stylesheet" href="./css/whome.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/solid.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
 </head>
 <body>
     <div id="nav"></div>
+    <div id="h-box">
+      <div id="h1-box">
+        <input type="search" id="h-search" placeholder="&#xF002; Search by skill, company & job" style="font-family:Arial, FontAwesome">
+        <input type="text" id="loc" placeholder="&#xf3c5; Location" style="font-family: Arial, 'Font Awesome 5 Free'" />
+        <select id="exp" style="font-family: Arial, 'Font Awesome 5 Free'">
+          <option value="">&#xf0b1; Experience</option>
+          <option value="0">0 Years</option>
+          <option value="1">1 Years</option>
+          <option value="2">2 Years</option>
+          <option value="3">3 Years</option>
+          <option value="4">4 Years</option>
+          <option value="5">5 Years</option>
+          <option value="6">6 Years</option>
+          <option value="7">7 Years</option>
+          <option value="8">8 Years</option>
+          <option value="9">9 Years</option>
+          <option value="10">10 Years</option>
+        </select>
+        <button id="src" onclick="src()">Search</button>
+      </div>
+    </div>
+    <div id="h-container">
+      <div id="h-sidebar">
+
+        <div class="accordion">
+          <div class="b1">
+            <div class="b2">
+              Filter By
+            </div>
+          </div>
+          <div class="accordion-item">
+            <div class="accordion-item-header">
+              Function
+            </div>
+            <div class="accordion-item-body">
+              <div class="accordion-item-body-content">
+                <ul style="padding-left: 1rem;">
+                  <li>IT</li>
+                  <li>Health Care</li>
+                  <li>Admin/Secretarial</li>
+                  <li>Sales/Business Development</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <div class="accordion-item-header">
+              Role
+            </div>
+            <div class="accordion-item-body">
+              <div class="accordion-item-body-content">
+                <ul style="padding-left: 1rem;">
+                  <li>Banking</li>
+                  <li>Business Development</li>
+                  <li>Fresher</li>
+                  <li>Intern</li>
+                  <li>Software Developmnet</li>
+                  <li>Web Development</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <div class="accordion-item-header">
+              Experience(In Years)
+            </div>
+            <div class="accordion-item-body">
+              <div class="accordion-item-body-content">
+                <ul style="padding-left: 1rem;">
+                  <li>0-1 Years</li>
+                  <li>2-4 Years</li>
+                  <li>4-6 Years</li>
+                  <li>6-10 years</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <div class="accordion-item-header">
+              City
+            </div>
+            <div class="accordion-item-body">
+              <div class="accordion-item-body-content">
+                <ul style="padding-left: 1rem;">
+                  <li>Bangalore</li>
+                  <li>Bhopal</li>
+                  <li>Mumbai</li>
+                  <li>Remote</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <div class="accordion-item-header">
+              Salary(INR)
+            </div>
+            <div class="accordion-item-body">
+              <div class="accordion-item-body-content">
+                <ul style="padding-left: 1rem;">
+                  <li>0-1Lakhs</li>
+                  <li>1Lakhs - 2Lakhs</li>
+                  <li>2Lakhs - 4Lakhs</li>
+                  <li>5Lakhs - 10Lakhs</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="h-cont"></div>
+    </div>
     
     
 </body>
@@ -17,4 +133,6 @@
     import {navbar} from "./comp.js"
     document.getElementById("nav").innerHTML=navbar()
 </script> -->
+
+<script src="./scripts/whome.js"></script>
 
