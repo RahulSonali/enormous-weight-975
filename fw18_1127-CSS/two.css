@@ -52,6 +52,9 @@
  color:white;
 }
 #nav-2{
+    background-color: white;
+    position: sticky;
+    top: 0px;
     margin-top:20px;
     height:50px;
     width:80%;
@@ -64,6 +67,7 @@
 
 }
 #nav-2>a{
+   
     padding-top:15px;
     text-decoration: none;
     font-weight: 700;
@@ -89,7 +93,7 @@ select option {
     text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
   }
 #one{
-    width:20%;
+    width:30%;
     height:100px;
     margin:auto;
     text-align: center;
