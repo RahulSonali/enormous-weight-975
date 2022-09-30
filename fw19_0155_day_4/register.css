@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+}    
+
+html, body {
+    width: 100%;
+    height: 100%;
+}    
+
+#address {
+    width: 100%;
+    line-height: 22px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: #777777;
+    background-color: #f7f8fa;
+    font-size: 10px;
+}
+
+#main { 
+    /* border: 1px solid red; */
+    max-width: 350px;
+    margin: auto;
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+
+#register {
+    width: 100%;
+    
+}    
+
+#register > p:nth-child(1){
+    font-size: 30px;
+    font-weight: 500;
+}    
+
+#register > p:nth-child(2) {
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 21px;
+    margin-bottom: 21px;
+}    
+
+#formDiv, #register {
+    width: 100%;
+    line-height: 30px;
+}
+
+#formDiv {
+    margin-top: 20px;
+    line-height: 15px
+}
+
+.required {
+    color: #777777;
+    padding-left: 5px;
+    font-size: 14px;
+    line-height: 20px;
+    float: right;
+}
+
+#registerForm > input {
+    width: 100%;
+    height: 44px;
+    border: 1px solid ;
+    outline: none;
+    background: transparent;
+    font-size: 16px;
+    border: 1px solid #e9e7e7;
+    padding: 11px 12px 15px 18px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+#registerForm > label {
+    font-size: 17px;
+    color: #777777;
+    padding-bottom: 5px;
+    display: inline-block;
+    border: 1ps solid black;
+}
+
+#button {
+    background-color:#6c54da;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 5px 20px 4px;
+    font-weight: 500;
+    width: 100%;
+    height: 44px;
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+#button:hover{
+    background-color: #6c51e6;
+}
+sup {
+    font-size: 15px;
+}
+
+#main > a {
+    font-size: 11px;
+    font-weight: 600;
+    color: #333333;
+    cursor: pointer;
+}
+#errMsg {
+    color: #ff0000;
+    font-size: 18px;
+}
+#returnUnderLine{
+    font-size: 14px;
+}
+#returnUnderLine:hover{
+    text-decoration: underline;
+    
+}
+#create_account{
+    text-align: center;
+    word-spacing: 10px;
+}
