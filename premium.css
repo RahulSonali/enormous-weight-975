@@ -25,7 +25,7 @@
    height:100px;
    padding-top:40px;
 }
-.sub-2>button{
+.sub-2>.class{
     width:300px;
     height:40px;
     background-color:#60489D;
@@ -88,7 +88,7 @@ border-radius: 10px;
     font-family:Arial, Helvetica, sans-serif;
     font-weight: lighter;
 }
-.sub-4>button{
+.sub-4>.class{
     width:200px;
     height:50px;
     background-color:#60489D;
@@ -97,10 +97,14 @@ border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border:none;
 }
-.sub-4>p{
+.sub-4>.open-button{
     color:#60489D;
+    margin-top: 20px;
+    margin-left: 40px;
+    border-color:whitesmoke;
+    font-size: large;
 }
-.sub-4>p:hover{
+.sub-4>.open-button:hover{
     text-decoration:underline;
 }
 #part-4{
