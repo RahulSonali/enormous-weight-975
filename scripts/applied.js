@@ -59,6 +59,6 @@ function Display(job) {
 Display(job)
 function submit(){
   setTimeout(()=>{
-    alert("You have Successfully applied for this job. Further details will be notified though E-mail");
+    alert("You have Successfully applied for this job. Further details will be notified through E-mail");
   },1500);
 }
