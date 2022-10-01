@@ -14,8 +14,10 @@ document.getElementById("jobs").innerHTML=jobs()
  btn2.onclick=async()=>{
     
     setTimeout(() => {
-        alert("Your response has been recorded we will reach you out within 24hrs") 
-    },3000);
+      let name=document.getElementById("nam").value;
+
+        alert(`Hello ${name} Your response has been recorded we will reach you out within 24hrs`) 
+    },1000);
 
    
     
@@ -29,9 +31,9 @@ document.getElementById("jobs").innerHTML=jobs()
 // }
 
 // function closePopup() {
-//     popup.classList.remove("open-popup");
+//     popup.classList.add("close-popup");
 
-// }
+//  }
 // function openPopup() {
 //   document.getElementById("popup").style.display = "block";
 // }
@@ -39,5 +41,3 @@ document.getElementById("jobs").innerHTML=jobs()
 // function closePopup() {
 //   document.getElementById("popup").style.display = "none";
 // }
-
-    

@@ -193,11 +193,11 @@ padding:12px 18px ;
 border-radius:12PX ;
 margin-left: 150px;
 margin-bottom: 10px;
+margin-top: 10%;
 
 }
-/* .benfits-button-box{
+.benfits-button-box{
 margin-top:20px ;
-
 }
 .benifts-main, .left, .img  {
 display: flex;
@@ -234,24 +234,29 @@ justify-content: center;
 }
 #popup{
 width: 400px;
+/* height: 100%; */
 background-color:#FFFFFF;
 border-radius: 6px;
 position: absolute;
-top: 50%;
+top: 40%;
 left: 50%;
 bottom: 50%;
 transform: translate(-50%,-50%)scale(1);
 text-align: center;
 padding: 0 30px 30px;
-color: #333;
+color:white;
 visibility: visible;
 transition:transform 0.4s, top 0.4s ;
-display: flex;
-
-}
-.open-popup{
+display: block;
+ } 
+/* .open-popup{
 visibility: visible;
-top: 50%;
-transform: translate(-50%,-50%)scale(1);
+/* top: 50%; */
+/* transform: translate(-50%,-50%)scale(1); */
+/* } */ 
 
+/* .close-popup{
+    visibility: hidden;
+    top: 50%;
+    transform:translate(-50%,-50%)scale(1); ;
 } */
