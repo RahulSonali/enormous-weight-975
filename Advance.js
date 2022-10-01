@@ -1,4 +1,7 @@
 
+  import {navbar,footer,jobs,home1,crauser,home2,home3} from "./scripts/comp.js"
+ document.getElementById("nav").innerHTML=navbar()
+ document.getElementById("foot").innerHTML=footer()
 var AdvSearchData = JSON.parse(localStorage.getItem("searchData"))||[];
 
 document.querySelector("#form").addEventListener("submit",SearchFunction);

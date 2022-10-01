@@ -1,3 +1,10 @@
+import {navbar,footer,jobs,home1,crauser,home2,home3} from "./comp.js"
+document.getElementById("nav").innerHTML=navbar()
+document.getElementById("foot").innerHTML=footer()
+document.getElementById("jobs").innerHTML=jobs()
+
+
+
 const accordionItemHeaders = document.querySelectorAll(".accordion-item-header");
 accordionItemHeaders.forEach(accordionItemHeader => {
   accordionItemHeader.addEventListener("click", event => {

@@ -1,3 +1,8 @@
+import {navbar,footer,jobs,home1,crauser,home2,home3} from "./comp.js"
+document.getElementById("nav").innerHTML=navbar()
+document.getElementById("foot").innerHTML=footer()
+document.getElementById("jobs").innerHTML=jobs()
+
 let container = document.getElementById('job-det');
 let job= JSON.parse(localStorage.getItem('job_Details')) || [];
 console.log(job);

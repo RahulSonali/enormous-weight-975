@@ -5,7 +5,7 @@ function navbar(){
     <label for="menu-bar">Menu</label>
      <nav class="navbar">
        <ul>
-           <li><a href="#">Job Search</a>              
+           <li><a href="advance.html">Job Search</a>              
 
            <ul>
                <li><a href="#">JOBS BY LOCATION > </a>
@@ -143,7 +143,7 @@ function navbar(){
                </li>
            </ul>
            </li>
-           <li><a href="#">Work From Home</a>
+           <li><a href="workfromhome.html">Work From Home</a>
                <ul>
                    <li><a href="#">WORK FROM HOME JOBS IN BANGLORE</a></li> 
                    <li><a href="#">WORK FROM HOME JOBS IN CHENNAI</a></li> 
@@ -157,18 +157,18 @@ function navbar(){
                    <li><a href="#">WORK FROM HOME JOBS IN PUNE</a></li> 
                </ul>
            </li>
-           <li><a href="#">Career Tips</a>
+           <li><a href="career_manage.html">Career Tips</a>
                <ul>
-                   <li><a href="#">JOB SEARCH STRATEGY</a></li> 
+                   <li><a href="job_search.html">JOB SEARCH STRATEGY</a></li> 
                    <li><a href="#">RESUME & COVER LETTER</a></li> 
-                   <li><a href="#">INTERVIEW TIPS </a></li> 
-                   <li><a href="#">CAREER MANAGEMENT</a></li> 
+                   <li><a href="interview_tips.html">INTERVIEW TIPS </a></li> 
+                   <li><a href="career_manage.html">CAREER MANAGEMENT</a></li> 
                    <li><a href="#">SALARY NEGOTIATION</a></li> 
                    <li><a href="#">COURSE</a></li>                  
                </ul>
 
            </li>
-           <li><a href="#">Premium Service</a>
+           <li><a href="primium.html">Premium Service</a>
                <ul>
                    <li><a href="#">FEATURED PROFILE</a></li> 
                    <li><a href="#">PROFILE HIGHLITER</a></li> 
@@ -210,20 +210,20 @@ function footer(){
                 <h3>Job Seekers</h3>
                 <ul>
                     <li><a href="#">Job Search</a></li>
-                    <li><a href="#">Job Seeker Login</a></li>
+                    <li><a href="sign_in.html">Job Seeker Login</a></li>
                     <li><a href="#">Upload Resume</a></li>
-                    <li><a href="#">Career Advise</a></li>
-                    <li><a href="#">Search Tips</a></li>
+                    <li><a href="career_manage.html">Career Advise</a></li>
+                    <li><a href="career_tips.html">Search Tips</a></li>
                     <li><a href="#">Free Job Alert</a></li>
                     <li><a href="#">Find companies</a></li>
-                    <li><a href="#">Help</a></li>
+                    <li><a href="https://www.monsterindia.com/info/terms-of-use">Help</a></li>
                 </ul>
             </div>
             <div class="footer-col">
                 <h3>Employers</h3>
                 <ul>
-                    <li><a href="#">Employer Login</a></li>
-                    <li><a href="#">Job Posting</a></li>
+                    <li><a href="sign_in.html">Employer Login</a></li>
+                    <li><a href="">Job Posting</a></li>
                     <li><a href="#">Acess Resume Database</a></li>
                     <li><a href="#">Join mRecruiters</a></li>
                     <li><a href="#">Buy online</a></li>
@@ -232,40 +232,40 @@ function footer(){
             <div class="footer-col">
                 <h3>Monster</h3>
                 <ul>
-                    <li><a href="#">About us</a></li>
-                    <li><a href="#">Contact Us</a></li>
-                    <li><a href="#">Career with us</a></li>
+                    <li><a href="https://www.monsterindia.com/info/terms-of-use">About us</a></li>
+                    <li><a href="https://www.facebook.com/monsterindia/">Contact Us</a></li>
+                    <li><a href="career_manage.html">Career with us</a></li>
                     <li><a href="#">Send Feedback</a></li>
                     <li><a href="#">Testimonials</a></li>
                     <li><a href="#">HTML Sitemap</a></li>
                     <li><a href="#">XML Sitemap</a></li>
-                    <li><a href="#">Jobs App</a></li>
+                    <li><a href="index.html">Jobs App</a></li>
                 </ul>
             </div>
             <div class="footer-col">
                 <h3>Stay Connected</h3>
                 <ul>
-                    <li><a href="#">Facebook</a></li>
-                    <li><a href="#">Titter</a></li>
-                    <li><a href="#">LinkedIn</a></li>
-                    <li><a href="#">Instagram</a></li>
-                    <li><a href="#">Youtube</a></li>
+                    <li><a href="https://www.facebook.com/monsterindia/">Facebook</a></li>
+                    <li><a href="https://twitter.com/monster_india?lang=en">Titter</a></li>
+                    <li><a href="https://www.linkedin.com/company/monster-india/?originalSubdomain=in">LinkedIn</a></li>
+                    <li><a href="https://www.instagram.com/monster_india/?hl=en">Instagram</a></li>
+                    <li><a href="https://www.youtube.com/channel/UCY_u5QE1QR-Rsem1ZexT6LQ">Youtube</a></li>
                 </ul>
             </div>
             <div class="footer-col">
                 <h3>Legal</h3>
                 <ul>
-                    <li><a href="#">Security & Fraud</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">Terms Of Use</a></li>
-                    <li><a href="#">Be Safe</a></li>
-                    <li><a href="#">Complaints</a></li>
+                    <li><a href="https://www.monsterindia.com/info/security-center">Security & Fraud</a></li>
+                    <li><a href="https://www.monsterindia.com/info/privacy">Privacy Policy</a></li>
+                    <li><a href="https://www.monsterindia.com/info/terms-of-use">Terms Of Use</a></li>
+                    <li><a href="https://www.monsterindia.com/info/besafe">Be Safe</a></li>
+                    <li><a href="https://www.monsterindia.com/info/complaints">Complaints</a></li>
                 </ul>
             </div>
             <div class="footer-col">
                 <div class="social-links">
-                    <a href="#"><i class="fab fa-google"></i></a>
-                    <a href="#"><i class="fab fa-apple"></i></a>
+                    <a href="https://play.google.com/store/apps/details?id=com.monsterindia.seeker.views&referrer=utm_source%3DWebsite%26utm_campaign%3DJobs-App"><i class="fab fa-google"></i></a>
+                    <a href="https://apps.apple.com/in/app/monster-jobs/id525775161"><i class="fab fa-apple"></i></a>
                 </div>                    
                
             </div>
