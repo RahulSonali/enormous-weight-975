@@ -9,8 +9,8 @@ This blog is to share our experience working as a team to build a pixel-perfect 
 We did this entire project in a span of 3 days as a collaborative project of 5 members: Sonali Ghorpade, Ashish Kumar, Akriti Jain, Harsha Umesh, Niranjan Salunkhe.
 
 Since we had very limited time to clone an entire website we skipped some of the repetitive pages of the website and focused on the main pages which covered most of the functionality like the Landing page, Product listing pages, Sign In, and Sign up page, and gave our best to clone theses pages.
-
 Take a look at the snippets,
+
 ![image (8)](https://user-images.githubusercontent.com/101391587/193397512-ff0e6906-2eaa-4c24-9ea7-bf7d57c29ea5.png)
 ![image (9)](https://user-images.githubusercontent.com/101391587/193397515-45c40075-86f7-4748-8963-632567c3083e.png)
 ![image (10)](https://user-images.githubusercontent.com/101391587/193397516-112230a0-5a66-465a-b108-694691eef9c3.png)
