@@ -10,13 +10,14 @@ We did this entire project in a span of 3 days as a collaborative project of 5 m
 
 Since we had very limited time to clone an entire website we skipped some of the repetitive pages of the website and focused on the main pages which covered most of the functionality like the Landing page, Product listing pages, Sign In, and Sign up page, and gave our best to clone theses pages.
 
-Take a look at the snippets, these ![image (4)](https://user-images.githubusercontent.com/101391587/193396256-9c540736-5665-4f6a-bfb6-62831cbbad15.png)
-![image (3)](https://user-images.githubusercontent.com/101391587/193396259-1c49c890-47e2-4a76-97f0-298f24dba567.png)
-![image (2)](https://user-images.githubusercontent.com/101391587/193396260-54980ba1-6fa9-4135-ba31-57082efbbaa9.png)
-![image (1)](https://user-images.githubusercontent.com/101391587/193396262-0c27733f-d257-42aa-aac4-f4f2722ab56f.png)
-![image (7)](https://user-images.githubusercontent.com/101391587/193396263-34ce480a-dc6b-463c-b305-d44d4f3031b3.png)
-![image (6)](https://user-images.githubusercontent.com/101391587/193396264-4c7c6778-d1e7-49b3-bcd0-8cf4fdf538ef.png)
-![image (5)](https://user-images.githubusercontent.com/101391587/193396266-5a9a11d7-753b-48dc-ac0d-4d043e5f1382.png)
+Take a look at the snippets,
+![image (8)](https://user-images.githubusercontent.com/101391587/193397512-ff0e6906-2eaa-4c24-9ea7-bf7d57c29ea5.png)
+![image (9)](https://user-images.githubusercontent.com/101391587/193397515-45c40075-86f7-4748-8963-632567c3083e.png)
+![image (10)](https://user-images.githubusercontent.com/101391587/193397516-112230a0-5a66-465a-b108-694691eef9c3.png)
+![image (14)](https://user-images.githubusercontent.com/101391587/193397519-f70683ad-86f6-45c2-8fb3-bc4c135e717c.png)
+![image (11)](https://user-images.githubusercontent.com/101391587/193397562-c9186978-2f69-4776-82b9-5234db527b86.png)
+![image (12)](https://user-images.githubusercontent.com/101391587/193397579-507ab301-db26-4eb0-a1bc-6ac7abc2477c.png)
+
 are just some of the pages of our cloned website.
 
 Tech Stack we used for creating this website is HTML, CSS, and JavaScript. We used most of the concepts we were taught to build the website like DOM manipulation, Grid system, etc.
