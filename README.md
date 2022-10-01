@@ -40,7 +40,7 @@ We used the following resources for our reference:
 https://developer.mozilla.org/en-US/
 
 You can See the working of our app on Netlify here is the link:- 
-https://gilded-brioche-613bed.netlify.app
+https://enormous-weight-975.netlify.app
 
 
 
