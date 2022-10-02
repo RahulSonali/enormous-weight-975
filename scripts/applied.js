@@ -62,8 +62,9 @@ function Display(job) {
 
 }
 Display(job)
-function submit(){
-  setTimeout(()=>{
+// function submitjb(){
+document.getElementById("newapply").addEventListener("click", ()=>{  
+setTimeout(()=>{
     alert("You have Successfully applied for this job. Further details will be notified through E-mail");
   },1500);
-}
+});
